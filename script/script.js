@@ -202,7 +202,7 @@ function drawMap() {
 
 function showPicture(number) {
     let img = document.createElement("img")
-    img.src = "images/background" + number + ".jpg"
+    img.src = "./images/background" + number + ".jpg"
     let src = document.getElementById("showplace")
     if (img && img.style) {
         img.style.position = 'relative'

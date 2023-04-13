@@ -64,7 +64,7 @@
     }
 }
 
-@media(min-width: 401px){
+@media(min-width: 681px){
 header{
     height: 12vh;
     background-color: white;

@@ -342,7 +342,7 @@ function reload() {
 function showCat() {
     let cat = document.createElement("img")
     cat.setAttribute("class", "cat")
-    cat.src = "../images/cat.png"
+    cat.src = "./images/cat.png"
     let src = document.getElementById("showplace")
     if (cat && cat.style) {
         cat.style.height = '50px';
@@ -357,7 +357,7 @@ function showCat() {
 function showZombieCat() {
     let cat = document.createElement("img")
     cat.setAttribute("class", "zombiecat")
-    cat.src = "../images/zombiecat.png"
+    cat.src = "./images/zombiecat.png"
     let src = document.getElementById("showplace")
     if (cat && cat.style) {
         cat.style.height = '100px';

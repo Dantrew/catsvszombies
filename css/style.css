@@ -43,7 +43,7 @@
     .map{
         background-color: azure;
         text-align: center;
-        background-image: url(/images/map.jpg);
+        background-image: url(../images/map.jpg);
         background-size: cover;
         border-style: solid;
     }
@@ -98,7 +98,7 @@ input{
 .map{
     background-color: azure;
     text-align: center;
-    background-image: url(/images/map.jpg);
+    background-image: url(../images/map.jpg);
     background-size: cover;
     border-style: solid;
 }
